@@ -9,6 +9,8 @@ import { Products } from './typeOrm/products';
 import { Categories } from './typeOrm/categories';
 import { ProductSizes } from './typeOrm/productSizes';
 import { ProductsModule } from './products/products.module';
+import { Orders } from './typeOrm/orders';
+import { OrdersItems } from './typeOrm/ordersItems';
 
 @Module({
   imports: [
@@ -19,7 +21,14 @@ import { ProductsModule } from './products/products.module';
       username: 'root',
       password: 'nguyenvu',
       database: 'fastfoodorder_v2',
-      entities: [Users, Products, Categories, ProductSizes],
+      entities: [
+        Users,
+        Products,
+        Categories,
+        ProductSizes,
+        Orders,
+        OrdersItems,
+      ],
       synchronize: true,
     }),
     UsersModule,

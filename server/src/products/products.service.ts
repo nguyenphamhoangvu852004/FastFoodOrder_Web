@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Products } from 'src/typeOrm/products';
 import { Repository } from 'typeorm';
+import { ProductsController } from "./products.controller";
 
 @Injectable()
 export class ProductsService {
@@ -13,8 +14,8 @@ export class ProductsService {
     return await this.productRepo.find();
   }
 
-  async getAllProductsFullInfomation() {
-    const productsListWithFullInfomation = await this.productRepo
+  async getAllProductsFullInfomation(): Promise<Products[]> {
+    const productsListWithFullInfomation: Products[] = await this.productRepo
       .createQueryBuilder('product')
       .leftJoinAndSelect('product.ProductSizes', 'size')
       .select([
@@ -33,8 +34,9 @@ export class ProductsService {
 
     return productsListWithFullInfomation;
   }
+
   // Lấy tất cả sản phẩm thuộc category Pizza
-  async getAllPizza() {
+  async getAllPizza(): Promise<Products[]> {
     return await this.productRepo
       .createQueryBuilder('product')
       .leftJoinAndSelect('product.ProductSizes', 'size')

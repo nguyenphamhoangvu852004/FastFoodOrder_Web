@@ -6,30 +6,31 @@ import {
   JoinColumn,
   OneToMany,
 } from 'typeorm';
-import { Categories } from './categories'; // Đảm bảo bạn import đúng
-import { ProductSizes } from './productSizes';
+import { OrdersItems } from './ordersItems';
+import { Categories } from './categories';
+
 @Entity({ name: 'Products' })
 export class Products {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ name: 'productID' })
   ProductID: number;
 
-  @Column({ length: 100 })
+  @Column({ name: 'productName' })
   ProductName: string;
 
-  @Column({ type: 'text', nullable: true })
+  @Column({ nullable: true, name: 'description' })
   Description: string;
 
   @ManyToOne(() => Categories)
-  @JoinColumn({ name: 'CategoryID' })
+  @JoinColumn({ name: 'categoryID' })
   CategoryID: Categories;
 
-  @Column({ length: 255, nullable: true })
+  @Column({ nullable: true, name: 'imageURL' })
   ImageURL: string;
 
-  @Column({ type: 'boolean', default: true })
+  @Column({ type: 'boolean', default: true, name: 'isActive' })
   IsActive: boolean;
 
-  // Thiết lập quan hệ với bảng ProductSizes
-  @OneToMany(() => ProductSizes, (productSize) => productSize.ProductID)
-  ProductSizes: ProductSizes[];
+  // Mối quan hệ với bảng OrdersItems
+  @OneToMany(() => OrdersItems, (orderItem) => orderItem.Products)
+  OrderItems: OrdersItems[]; // Thêm OrderItems
 }

@@ -1,32 +1,48 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  CreateDateColumn,
+  OneToMany,
+} from 'typeorm';
+import { Orders } from './orders';
 
 @Entity({ name: 'Users' })
 export class Users {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ name: 'userId' })
   UserID: number;
 
-  @Column({ length: 50, unique: true })
+  @Column({ name: 'username', nullable: true })
   Username: string;
 
-  @Column({ length: 100, unique: true })
+  @Column({ name: 'email', nullable: false })
   Email: string;
 
-  @Column({ length: 255 })
-  PasswordHash: string;
+  @Column({ name: 'password', nullable: false })
+  Password: string;
 
-  @Column({ length: 100 })
+  @Column({ name: 'fullname', nullable: true })
   FullName: string;
 
-  @Column({ length: 20, nullable: true })
+  @Column({ name: 'phoneNumber', nullable: false })
   PhoneNumber: string;
 
-  @Column({ type: 'text', nullable: true })
+  @Column({ name: 'address', nullable: true })
   Address: string;
 
-  @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP' })
+  @CreateDateColumn({ name: 'createdAt', nullable: false })
   CreatedAt: Date;
 
-  @Column({ type: 'boolean', default: false })
-  IsAdmin: boolean;
-}
+  @CreateDateColumn({ name: 'updatedAt', nullable: false })
+  UpdatedAt: Date;
 
+  @Column({ name: 'isAdmin', type: 'boolean', default: false, nullable: false })
+  IsAdmin: boolean;
+
+  @Column({ name: 'refreshToken', nullable: true })
+  RefreshToken: string;
+
+  // Thêm mối quan hệ OneToMany với Orders
+  @OneToMany(() => Orders, (order) => order.User)
+  orders: Orders[]; // Tên mối quan hệ là "orders"
+}

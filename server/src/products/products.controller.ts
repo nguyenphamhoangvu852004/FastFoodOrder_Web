@@ -14,17 +14,17 @@ export class ProductsController {
     return this.productsService.getAllProductsFullInfomation();
   }
   @Get('/pizzas')
-  getAllPizza(){
+  getAllPizza() {
     return this.productsService.getAllPizza();
   }
 
   @Get('/hamburgers')
-  getAllHamburger(){
+  getAllHamburger() {
     return this.productsService.getAllHamburger();
   }
 
   @Get('/drinks')
-  getAllDrink(){
+  getAllDrink() {
     return this.productsService.getAllDrink();
   }
 }

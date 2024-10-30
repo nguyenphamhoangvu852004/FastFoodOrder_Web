@@ -1,0 +1,380 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Login, Register" id="w8kJPtSdFsDYCHmu1b2O">
+    <mxGraphModel dx="1900" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dltFV2shGjLDIdxqBUfk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="dltFV2shGjLDIdxqBUfk-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-1" value="Client" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-2" value="Server" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-3" value="Axios" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="dltFV2shGjLDIdxqBUfk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.65999999999997" y="310" as="sourcePoint" />
+            <mxPoint x="439.65999999999997" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="dltFV2shGjLDIdxqBUfk-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="660" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="560" />
+              <mxPoint x="660" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="660" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-8" value="Call API, gữi kèm (email, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" parent="dltFV2shGjLDIdxqBUfk-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.4094" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="325" as="sourcePoint" />
+            <mxPoint x="660" y="405" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="325" />
+              <mxPoint x="810" y="385" />
+              <mxPoint x="810" y="405" />
+              <mxPoint x="740" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-13" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;checkExistAccountWithEmail&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" parent="dltFV2shGjLDIdxqBUfk-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.4053" relative="1" as="geometry">
+            <mxPoint x="7" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-14" value="checkPassword" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" parent="dltFV2shGjLDIdxqBUfk-9" vertex="1" connectable="0">
+          <mxGeometry x="0.0499" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="430" as="sourcePoint" />
+            <mxPoint x="660" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="430" />
+              <mxPoint x="830" y="490" />
+              <mxPoint x="830" y="510" />
+              <mxPoint x="760" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-18" value="Generatate 2 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" parent="dltFV2shGjLDIdxqBUfk-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.0516" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-19" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="540" as="sourcePoint" />
+            <mxPoint x="220" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dltFV2shGjLDIdxqBUfk-20" value="Trả về client 2 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;" parent="dltFV2shGjLDIdxqBUfk-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.4094" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-24" value="UseCase: login" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="680" width="430" height="400.2399999999989" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="30" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-26" value="Input" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-25" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-27" value="email, password" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-25" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="70" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-29" value="Output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-28" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-30" value="&lt;div style=&quot;&quot;&gt;accessToken, refreshToken&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-28" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="110" width="430" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-32" value="Primary course" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-31" vertex="1">
+          <mxGeometry width="58" height="41" as="geometry">
+            <mxRectangle width="58" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-33" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-31" vertex="1">
+          <mxGeometry x="58" width="372" height="41" as="geometry">
+            <mxRectangle width="372" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-95" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="151" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-96" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-95" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-97" value="kiểm tra email + password, nếu 1 trong 2 rỗng --&amp;gt; trả về thống báo lỗi + Usecase ngừng hoạt động." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-95" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="191" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-35" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-34" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-36" value="kiểm tra email có tồn tại hay không" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-34" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-37" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="231" width="430" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-38" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-37" vertex="1">
+          <mxGeometry width="58" height="39" as="geometry">
+            <mxRectangle width="58" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-39" value="Nếu email không tồn tại ---&amp;gt; trả về thông báo lỗi + Usecase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-37" vertex="1">
+          <mxGeometry x="58" width="372" height="39" as="geometry">
+            <mxRectangle width="372" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-40" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="270" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-41" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-40" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-42" value="Nếu email tồn tại ---&amp;gt; mã hóa mật khẩu + so sánh mật khẩu với mật khẩu trong hệ thống" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-40" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="310" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-44" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-43" vertex="1">
+          <mxGeometry width="58" height="40" as="geometry">
+            <mxRectangle width="58" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-45" value="Nếu mật khẩu không khớp ---&amp;gt; trả về thông báo lỗi +&amp;nbsp; UseCase ngừng hoạt động." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-43" vertex="1">
+          <mxGeometry x="58" width="372" height="40" as="geometry">
+            <mxRectangle width="372" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-46" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-24" vertex="1">
+          <mxGeometry y="350" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-47" value="6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-46" vertex="1">
+          <mxGeometry width="58" height="50" as="geometry">
+            <mxRectangle width="58" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-48" value="Nếu mật khẩu khớp ---&amp;gt; tạo accessToken và refreshToken với dữ liệu payload (email) + trả về cho người dùng accessToken và refreshToken + Usecase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-46" vertex="1">
+          <mxGeometry x="58" width="372" height="50" as="geometry">
+            <mxRectangle width="372" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-49" value="UseCase: register" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
+          <mxGeometry x="20" y="660" width="500" height="550.24" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="30" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-51" value="Input" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-50" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-52" value="email, phoneNumber, password, passwordConfirm, isAdmin(true/false)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-50" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="70" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-54" value="Output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-53" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-55" value="Thông báo thành công" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-53" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="110" width="500" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-57" value="Primary course" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-56" vertex="1">
+          <mxGeometry width="76" height="41" as="geometry">
+            <mxRectangle width="76" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-58" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-56" vertex="1">
+          <mxGeometry x="76" width="424" height="41" as="geometry">
+            <mxRectangle width="424" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="151" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-60" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-59" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-61" value="kiểm tra email có tồn tại hay không" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-59" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="191" width="500" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-63" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-62" vertex="1">
+          <mxGeometry width="76" height="39" as="geometry">
+            <mxRectangle width="76" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-64" value="Nếu email không tồn tại, trả về thông báo lỗi. Usecase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-62" vertex="1">
+          <mxGeometry x="76" width="424" height="39" as="geometry">
+            <mxRectangle width="424" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="230" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-66" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-65" vertex="1">
+          <mxGeometry width="76" height="60" as="geometry">
+            <mxRectangle width="76" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-67" value="Nếu email tồn tại, kiểm tra số điện thoại nếu sđt đã tồn tại trong hệ thống thì trả về thông báo lỗi. UseCase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-65" vertex="1">
+          <mxGeometry x="76" width="424" height="60" as="geometry">
+            <mxRectangle width="424" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="290" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-69" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-68" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-70" value="Nếu số điện thoại chưa có trong hệ thống --&amp;gt; Kiểm tra độ mạnh của password và passwordConfirm.&amp;nbsp;&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-68" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-89" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="330" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-90" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-89" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-91" value="Nếu độ mạnh không đủ --&amp;gt; trả về thông báo lỗi.UseCase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-89" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="370" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-72" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-71" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-73" value="Nếu độ mạnh đủ ---&amp;gt; So sánh 2 password&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-71" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-92" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="410" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-93" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-92" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-94" value="Nếu 2 password không giống nhau ---&amp;gt;trả về thông báo lỗi + UseCase ngừng hoạt động." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-92" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-74" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="450" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-75" value="6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-74" vertex="1">
+          <mxGeometry width="76" height="40" as="geometry">
+            <mxRectangle width="76" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-76" value="Nếu 2 password giống nhau --&amp;gt; mã hóa password." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-74" vertex="1">
+          <mxGeometry x="76" width="424" height="40" as="geometry">
+            <mxRectangle width="424" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5uBFBS1DbDtbDD4Ff-4U-49" vertex="1">
+          <mxGeometry y="490" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-78" value="7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5uBFBS1DbDtbDD4Ff-4U-77" vertex="1">
+          <mxGeometry width="76" height="60" as="geometry">
+            <mxRectangle width="76" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uBFBS1DbDtbDD4Ff-4U-79" value="Lưu các thông tin (email, phoneNumber, pass đã được mã hóa) vào hệ thống, + trả về thông báo thành công + UseCase ngừng hoạt động" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="5uBFBS1DbDtbDD4Ff-4U-77" vertex="1">
+          <mxGeometry x="76" width="424" height="60" as="geometry">
+            <mxRectangle width="424" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
